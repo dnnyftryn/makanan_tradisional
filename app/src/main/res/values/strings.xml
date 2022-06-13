@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Makanan Tradisional</string>
+    <string name="image_splash">Image Splash</string>
+    <string name="nama_makanan">Nama Makanan</string>
+    <string name="desc_makanan">Deskripsi Makanan</string>
+    <string name="gambar_makanan">Gambar Makanan</string>
+    <string name="about_me">About Me</string>
+    <string name="my_name">Danny Fitriyana</string>
+    <string name="my_email">dannyfitriyana@gmail.com</string>
+    <string name="imgmakanan_makanan">Image makanan</string>
+    <string name="share">Share</string>
+    <string name="favorite">Favorite</string>
+</resources>

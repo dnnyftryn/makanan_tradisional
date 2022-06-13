@@ -1,0 +1,57 @@
+package com.dannyfitriyana.makanan_tradisional
+
+object MakananData {
+    private val namaMakanan = arrayOf(
+        "Rendang",
+        "Gudeg",
+        "Rawon",
+        "Soto Banjar",
+        "Betutu",
+        "Kerak Telur",
+        "Ayam Taliwang",
+        "Empal Gentong",
+        "Docang",
+        "Klepon"
+    )
+
+    private val descMakanan = arrayOf(
+        "Rendang atau randang (Jawi: رندڠ) adalah masakan daging asli Indonesia yang berasal dari Minangkabau. Masakan ini dihasilkan dari proses memasak suhu rendah dalam waktu lama menggunakan aneka rempah-rempah dan santan. Proses memasaknya memakan waktu berjam-jam (biasanya sekitar empat jam) hingga yang tinggal hanyalah potongan daging berwarna hitam pekat dan dedak. Dalam suhu ruangan, rendang dapat bertahan hingga berminggu-minggu. Rendang yang dimasak dalam waktu yang lebih singkat dan santannya belum mengering disebut kalio, berwarna cokelat terang keemasan.",
+        "Gudeg adalah makanan khas Provinsi Yogyakarta dan Jawa Tengah yang terbuat dari nangka muda yang dimasak dengan santan. Perlu waktu berjam-jam untuk membuat masakan ini. Warna coklat biasanya dihasilkan oleh daun jati yang dimasak bersamaan. Gudeg biasanya dimakan dengan nasi dan disajikan dengan kuah santan kental (areh), ayam kampung, telur, tempe, tahu dan sambal goreng krecek.",
+        "Rawon adalah masakan Indonesia berupa sup daging berkuah hitam dengan campuran bumbu khas yang menggunakan kluwek. Rawon, meskipun dikenal sebagai masakan khas Jawa Timur (daerah Arekan), dikenal pula oleh masyarakat Jawa Tengah sebelah timur (daerah Surakarta). Daging untuk rawon umumnya adalah daging sapi yang dipotong kecil-kecil, utamanya adalah bagian sandung lamur. Bumbu supnya sangat khas Indonesia, yaitu campuran bawang merah, bawang putih, lengkuas (laos), ketumbar, kemiri, serai, kunir, cabai, kluwek, garam, serta minyak nabati. Semua bahan ini dihaluskan, lalu ditumis sampai harum. Campuran bumbu ini kemudian dimasukkan dalam kaldu rebusan daging bersama-sama dengan daging. Warna gelap khas rawon berasal dari kluwek. Di luar negeri, rawon disebut sebagai black soup. Rawon disajikan bersama nasi, dilengkapi dengan tauge berekor pendek, telur asin, daun bawang, kerupuk udang, daging sapi goreng (empal), dan sambal. Beberapa pelengkap lain yang juga dapat dihidangkan bersama rawon adalah olahan jeroan dan di daerah Pasuruan rawon juga lazim dikonsumsi dengan mendol (perkedel tempe) dan disajikan di atas daun pisang. Kunci lezat rawon juga berada pada olahan kuahnya yang berasal dari kaldu daging yang digunakan, baik dari lemak daging, tulang muda, maupun kulit.",
+        "Soto Banjar adalah soto khas suku Banjar, Kalimantan Selatan dengan bahan utama ayam serta memiliki aroma harum rempah-rempah seperti kayu manis, biji pala, dan cengkih. Adakalanya pembuatan kuah soto banjar dapat dicampurkan dengan sedikit susu yang membuat warna kuahnya mejadi tidak bening, tetapi sedikit keruh. Soto ini berisi daging ayam yang sudah disuwir-suwir, dengan tambahan perkedel, kentang rebus, rebusan telur, potongan wortel dan ketupat. Seperti halnya soto ayam, bumbu soto Banjar berupa bawang merah, bawang putih dan merica, tetapi tidak memakai kunyit. Bumbu ditumis lebih dulu dengan sedikit minyak goreng atau minyak samin hingga harum sebelum dimasukkan ke dalam kuah rebusan ayam. Rempah-rempah nantinya diangkat agar tidak ikut masuk ke dalam mangkuk sewaktu dihidangkan. Penjual soto Banjar biasanyan juga menyajikan sate ayam sebagai menu pendamping. Nasi sop adalah sebutan untuk soto Banjar yang dikuahkan ke sepiring nasi.",
+        "Betutu adalah lauk yang terbuat dari ayam atau bebek yang utuh yang berisi bumbu, kemudian dipanggang dalam api sekam. Betutu ini telah dikenal di seluruh kabupaten di Bali. Betutu merupakan jenis makanan tradisional daerah Bali yang bahan mentahnya berupa karkas utuh itik dan ayam. Kata betutu berasal dari kata tunu yang berarti bakar dan dirangkai dengan kata be yang berarti daging. Berdasarkan uraian tersebut betutu berarti daging yang dibakar. Ayam betutu merupakan jenis lauk pauk yang dibuat dari daging ayam yang telah dibersihkan kemudian dibalurkan bumbu khas Bali yang dikenal dengan base genep di seluruh permukaan tubuh daging ayam dan sebagian lagi dimasukkan ke dalam rongga abdomennya. Daging ayam yang telah dibumbui tersebut kemudian direbus atau langsung dibakar hingga menghasilkan aroma yang khas. Aroma khas yang muncul disebabkan karena adanya pemanasan yang menyebabkan air dan lemak daging berantai pendek ikut menguap. Semakin banyak uap yang dihasilkan, semakin kuat dan enak aromanya. Menurut tradisi Bali, ayam betutu biasanya disajikan pada saat upacara adat seperti odalan, otonan, maupun perkawinan. Salah satu produsen betutu adalah desa Melinggih, kecamatam payangan kabupaten Gianyar. Ayam betutu juga merupakan makanan khas Gilimanuk. Betutu digunakan sebagai sajian pada upacara keagamaan dan upacara adat serta sebagai hidangan dan dijual. Konsumennya tidak hanya masyarakat Bali tetapi juga tamu manca negara yang datang ke Bali, khususnya pada tempat-tempat tertentu seperti di hotel dan rumah makan atau restoran. Betutu tidak tahan disimpan lama. Akan tetapi, sekarang makanan ini sudah menjadi kuliner khas Bali yang sekarang menjadi daya tarik wisatawan dan sudah dijual di berbagai tempat kuliner di Bali.",
+        "Kerak telur adalah makanan asli daerah Jakarta (Betawi), dengan bahan-bahan beras ketan putih, telur ayam atau bebek, ebi (udang kering yang diasinkan) yang disangrai kering ditambah bawang merah goreng, lalu diberi bumbu yang dihaluskan berupa kelapa sangrai, cabai merah, kencur, jahe, merica butiran, garam dan gula pasir. Kerak telor dapat ditemukan pada hari biasa. Anda bisa menemukan kerak telor di sekitar Kota Tua, Jakarta Barat. Menurut sejarah, Kerak Telor sudah ada dari zaman kolonial Belanda, kerak telor diciptakan oleh masyarakat Betawi secara tak sengaja Pada tahun 1970-an.",
+        "Ayam Taliwang adalah makanan khas Pulau Lombok dari Kampung Karang Taliwang, Kota Mataram, Nusa Tenggara Barat yang berbahan dasar daging ayam. Daging ayam yang disajikan berasal dari ayam kampung muda yang dibakar kemudian dibumbui dengan semacam saus yang bahannya antara lain cabai merah kering, bawang merah, bawang putih, tomat, terasi goreng, kencur, gula merah, dan garam. Makanan ini biasanya disajikan bersama makanan khas Lombok yang lain, misalnya plecing kangkung.",
+        "Empal gentong adalah makanan khas masyarakat Cirebon, Jawa Barat. Makanan ini mirip dengan gulai (gule) dan dimasak menggunakan kayu bakar (pohon mangga) di dalam gentong (periuk tanah liat).[butuh rujukan] Daging yang digunakan adalah usus, babat dan daging sapi. Empal gentong berasal dari Kabupaten Cirebon. Makanan khas Cirebon lainya masih ada lagi yaitu tahu gejrot dan docang. Selain menggunakan kayu bakar dan gentong, makanan ini disajikan menggunakan kucai(Allium tuberosum) dan sambal berupa cabai kering giling.[butuh rujukan] Empal gentong dapat disajikan dengan nasi atau juga lontong. Lontong menurut orang Cirebon hanyalah beras yang dimasukan kedalam daun pisang yang sudah dibentuk silinder, tidak ada campuran lainnya, kemudian direbus selama 4 jam.",
+        "Docang adalah makanan tradisional yang berasal dari Cirebon dan sekitarnya yang terbuat dari campuran potongan lontong, parutan kelapa, daun singkong, daun kucai, toge, dan kerupuk. Bahan-bahan tadi kemudian disiram dengan kuah dage atau oncom.[1] Secara harfiah, docang berasal dari bahasa Cirebon singkatan dari dua kata yaitu: bodo dan kacang (tauge). Docang merupakan perpaduan dari lontong, daun singkong, toge, dan kerupuk, yang berkolaborasi sayur oncom yang terbuat dari ampas tahu dicampur sedikit bungkil kacang tanah (sisa perasan dijadikan minyak) yang disebut gempa (yang dihancurkan) serta dikombinasikan dengan parutan kelapa muda.",
+        "Klepon atau kelepon adalah sejenis makanan tradisional atau kue tradisional Indonesia yang termasuk ke dalam kelompok jajanan pasar. Makanan enak ini terbuat dari tepung beras ketan yang dibentuk seperti bola-bola kecil dan diisi dengan gula merah lalu direbus dalam air mendidih. Klepon yang sudah masak lalu digelindingkan di atas parutan kelapa agar melekat, sehingga klepon tampak berbalur parutan kelapa. Biasanya klepon diletakkan di dalam wadah yang terbuat dari daun pisang. Di Sumatra, Sulawesi, dan di Malaysia, klepon disebut \"onde-onde\", sedangkan di Jawa dan bagian lain di Indonesia penganan yang disebut onde-onde adalah bola tepung beras berisi adonan kacang hijau yang dibaluri biji wijen. Perbedaan penyebutan antara di Jawa dan Sumatra-Malaysia ini sering kali menjadi penyebab kekeliruan dan kerancuan dalam mengartikan onde-onde. Klepon biasa dijajakan dengan getuk dan cenil (juga disebut cetil) sebagai camilan di pagi atau sore hari. Warna klepon biasanya putih atau hijau tergantung selera. Untuk klepon dengan warna hijau, perlu ditambahkan bahan pewarna dari daun suji atau daun pandan.",
+        "Sate Padang adalah sebutan untuk tiga jenis varian sate di Sumatra Barat, yaitu Sate Padang, Sate Padang Panjang dan Sate Pariaman.Sate Padang memakai bahan daging sapi, lidah, atau jerohan (jantung, usus, dan tetelan)[1] dengan bumbu kuah kacang kental (mirip bubur) ditambah cabai yang banyak sehingga rasanya pedas.Sate Padang Panjang dibedakan dengan kuah sate nya yang berwarna kuning sedangkan sate Pariaman kuahnya berwarna merah. Rasa kedua jenis sate ini juga berbeda. Sedangkan sate Padang mempunyai bermacam rasa perpaduan kedua jenis varian sate di atas.",
+        "Tahu gejrot adalah makanan khas Cirebon, Indonesia yang terbuat dari tahu dan bumbu lainnya. Tahu gejrot terdiri dari tahu yang sudah digoreng kemudian dipotong agak kecil lalu dimakan dengan kuah yang bumbunya cabai, bawang putih, bawang merah, gula.[1] Biasanya disajikan di layah kecil. Tahu gejrot juga merupakan jajanan khas daerah Cirebon yang digemari di kalangan anak-anak dan orang dewasa, karena sensasi rasanya yang khas.[1] Tahu gejrot ialah tahu yang dipotong kecil-kecil kemudian ditaruh di atas piring kecil dan tahu yang digunakan ialah tahu sumedang. Cara memakannya pun unik, yakni dengan satu lidi kecil kemudian tusuk bagian tahu yang telah dipotong-potong itu. Saat ini tahu gejrot telah menyebar ke seluruh Indonesia seperti Jakarta, Malang, Depok, Surabaya, dan beberapa tempat di kota-kota besar lainnya di Indonesia."
+        )
+
+    private val imgMakanan= intArrayOf(
+        R.drawable.rendang,
+        R.drawable.gudeg,
+        R.drawable.rawon,
+        R.drawable.soto_banjar,
+        R.drawable.betutu,
+        R.drawable.kerak_telor,
+        R.drawable.empal_gentong,
+        R.drawable.docang,
+        R.drawable.sate_padang,
+        R.drawable.tahu_gejrot
+    )
+
+    val listData: ArrayList<Makanan>
+    get() {
+        val list = arrayListOf<Makanan>()
+        for (position in namaMakanan.indices){
+            val makanandata = Makanan()
+            makanandata.nama = namaMakanan[position]
+            makanandata.deskripsi = descMakanan[position]
+            makanandata.poster = imgMakanan[position]
+            list.add(makanandata)
+        }
+        return list
+    }
+}
